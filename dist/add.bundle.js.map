@@ -1,0 +1,1 @@
+{"version":3,"file":"add.bundle.js","mappings":";;;;;;;;;;;AAA+B;AAC/B,8CAAS;AACT,2BAA2B,8CAAS;;;;;;;;;;;;;;;ACDpC,WAAW","sources":["webpack://webpack/./src/add.js","webpack://webpack/./src/obj.js"],"sourcesContent":["import { obj } from './obj.js';\nobj.count++;\nconsole.log('component-1', obj.count);","\nlet obj = {count:1};\nexport { obj }"],"names":[],"sourceRoot":""}

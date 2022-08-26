@@ -1,0 +1,20 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js",
+    "t": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "babel": "^6.23.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
